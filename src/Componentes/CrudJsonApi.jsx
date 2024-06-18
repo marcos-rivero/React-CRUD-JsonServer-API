@@ -11,7 +11,7 @@ const CrudJsonAPI = () => {
     const [error, setError] = useState(null)
     const [loading, setLoading] = useState(false)
     let api = helpHttp();
-    let url = "http://localhost:3000/users";
+    let url = "http://localhost:5000/users";
 
     useEffect(()=>{
         setLoading(true)
